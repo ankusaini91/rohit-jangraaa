@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rohit Jangra - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        .section h2 {
+            text-align: center;
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .skills,
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+        }
+
+        .skills div,
+        .projects div {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .skills div h3,
+        .projects div h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Rohit Jangra</h1>
+        <p>Full Stack Developer | Web Developer | Software Engineer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Rohit Jangra, a passionate developer with expertise in web development and a deep love for coding.
+                I am proficient in building web applications and have experience working with various programming languages and
+                frameworks. I enjoy solving problems and continuously learning new technologies to stay ahead in the industry.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>
+                    <h3>HTML & CSS</h3>
+                    <p>Experienced in building responsive and accessible websites using HTML5, CSS3, Flexbox, and CSS Grid.</p>
+                </div>
+                <div>
+                    <h3>JavaScript</h3>
+                    <p>Proficient in JavaScript, including ES6+ features, and familiar with frameworks like React and Vue.js.</p>
+                </div>
+                <div>
+                    <h3>Python</h3>
+                    <p>Experience in building backend systems and automation scripts using Python, Django, and Flask.</p>
+                </div>
+                <div>
+                    <h3>Node.js</h3>
+                    <p>Working knowledge of Node.js and Express for building scalable backend applications.</p>
+                </div>
+                <div>
+                    <h3>SQL & NoSQL</h3>
+                    <p>Experience with SQL databases like MySQL, PostgreSQL and NoSQL databases like MongoDB.</p>
+                </div>
+                <div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control using Git and collaboration through GitHub for project management and teamwork.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div>
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio built with HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                </div>
+                <div>
+                    <h3>Weather App</h3>
+                    <p>A weather application using JavaScript and an external API to fetch real-time weather data.</p>
+                </div>
+                <div>
+                    <h3>Blog Application</h3>
+                    <p>A full-stack blog application using Node.js, Express, and MongoDB to create and manage posts.</p>
+                </div>
+                <div>
+                    <h3>Todo List App</h3>
+                    <p>A to-do list app created with React.js for front-end and Node.js for the backend.</p>
+                </div>
+                <div>
+                    <h3>Personal Finance Tracker</h3>
+                    <p>A web app for tracking personal finances built with Django and PostgreSQL for database management.</p>
+                </div>
+                <div>
+                    <h3>Chat Application</h3>
+                    <p>A real-time chat app using Node.js, Express, and Socket.io for communication.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch with me, feel free to email me at <a href="mailto:rohitjangra@example.com">rohitjangra@example.com</a>.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rohit Jangra. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
